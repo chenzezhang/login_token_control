@@ -1,4 +1,4 @@
-需要安装相应的本地数据库
+需要安装相应的本地数据库,此处用了redis
 ## 进入项目
 ## 开发
     sudo npm install -g gulp
