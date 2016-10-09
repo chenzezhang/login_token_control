@@ -1,13 +1,13 @@
 Sometimes, there is no right to control the landing on the background when the need to control the middle of a state of login, where the full realization of the landing on the front-end control. Here mainly in the node-side access control to achieve the login.
 Need to install the appropriate local database, here with the redis.
-## 进入项目
-## 开发
+
+## Development
     sudo npm install -g gulp
     npm install
 
     启动 ： gulp
 
-## 正式
+## Formal
     sudo npm install pm2 -g
     npm install
 
