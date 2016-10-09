@@ -1,5 +1,5 @@
-有时候，没有将登陆的权限控制放在后台的时候，就需要一个控制登录状态的中间层，这里完全实现了将登陆状态放在了前端控制。这里主要在node端实现了登录权限控制。
-需要安装相应的本地数据库,此处用了redis
+Sometimes, there is no right to control the landing on the background when the need to control the middle of a state of login, where the full realization of the landing on the front-end control. Here mainly in the node-side access control to achieve the login.
+Need to install the appropriate local database, here with the redis.
 ## 进入项目
 ## 开发
     sudo npm install -g gulp
@@ -56,18 +56,6 @@
     $ pm2 publish                   # Increment version, git push and npm publish
 
 ···
-
-
-## 安装面板（这里可以不用）
-
-   直接进入 https://app.keymetrics.io  注册账号
-
-   首先保证本地pm2已经启动
-
-   pm2 link ******* ******* [要检测的名字] （*****为网站自定生成）
-
-   例如：pm2 link obeivpbfi28xvkg o8z03gs7gtb896p osds
-        pm2 link obeivpbfi28xvkg o8z03gs7gtb896p osds logds
 
 
 
